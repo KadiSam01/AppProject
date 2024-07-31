@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Login_system">
+
+
+    <EditText
+        android:id="@+id/email_Edit_Text"
+        android:layout_width="match_parent"
+        android:hint="User Name"
+        android:layout_height="wrap_content"
+       />
+
+
+    <EditText
+        android:id="@+id/password_Edit_Text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="password"
+        android:inputType="textPassword"
+        android:rotationX="21"
+        tools:visibility="visible" />
+
+
+    <Button
+        android:id="@+id/log_in_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/sign_up"
+      />
+
+    <Button
+        android:id="@+id/sign_up_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/Login"
+        />
+
+
+    <CheckBox
+        android:id="@+id/stay_logged_in_check_box"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/stay_login"
+        android:textAlignment="center" />
+
+
+    <Button
+        android:id="@+id/test_transfer_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Test" />
+
+</LinearLayout>

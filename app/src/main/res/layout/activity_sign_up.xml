@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Sign_up">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Sign Up"
+        android:textStyle="bold" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+
+        <EditText
+            android:id="@+id/firstName_Edit_Text"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:hint="@string/last_name"
+             />
+
+        <EditText
+            android:id="@+id/lastName_Edit_Text"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:hint="@string/first_name"/>
+
+    </LinearLayout>
+
+    <EditText
+        android:id="@+id/age_Edit_Text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Age"
+        android:inputType="number" />
+
+    <Spinner
+        android:id="@+id/gender_Spinner"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@android:drawable/btn_dropdown" />
+
+
+    <EditText
+        android:id="@+id/email_Edit_Text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Email"
+        android:inputType="textEmailAddress" />
+
+    <EditText
+        android:id="@+id/password_Edit_Text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Password"
+        android:inputType="textPassword" />
+
+    <EditText
+        android:id="@+id/username_Edit_Text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Username"
+        android:inputType="textNoSuggestions"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Spinner
+            android:id="@+id/year_spinner"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+
+        <Spinner
+            android:id="@+id/month_spinner"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+
+        <Spinner
+            android:id="@+id/day_spinner"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/sign_up_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Sign Up" />
+
+    <Button
+        android:id="@+id/cancel_Sign_Up_Button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Cancel Sign Up" />
+
+    <CheckBox
+        android:id="@+id/stay_Logged_In_Check_Box"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Stay Logged In"
+        android:textAlignment="center" />
+
+
+</LinearLayout>
+
+
+
